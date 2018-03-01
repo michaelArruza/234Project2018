@@ -9,7 +9,7 @@ G = 1
 MAXV = 10.0
 MINV = -10.0
 BLOCK_SIZE = 25
-UNSEEN = 10
+UNSEEN = 5
 
 def initLevel():
     floor = pygame.transform.scale(pygame.image.load("Assets/base.png"), (500,100))
