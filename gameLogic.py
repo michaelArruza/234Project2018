@@ -8,6 +8,8 @@ FPS = 30
 G = 1
 MAXV = 10.0
 MINV = -10.0
+BLOCK_SIZE = 25
+UNSEEN = 10
 
 def initLevel():
     floor = pygame.transform.scale(pygame.image.load("Assets/base.png"), (500,100))
@@ -41,6 +43,29 @@ class Player():
         else:
             self.vel = min(self.vel + G, MAXV)
 
+class Obstacles():
+    def __init__(self):
+        self.obstacle_vel = -5
+        self.blockImg = pygame.transform.scale(pygame.image.load("Assets/block.png"), (BLOCK_SIZE,BLOCK_SIZE))
+        self.setBlocks = []
+        self.level_matrix = np.zeros((SCREENWIDTH/BLOCK_SIZE,SCREENHEIGHT/BLOCK_SIZE + UNSEEN))
+
+    def add_wall(self, level_arr):
+        for i in range(len(level_arr)):
+            for j in range(len(level_arr[i])):
+                if level_arr[i,j] >= 1:
+                    self.setBlocks.append(self.blockImg.get_rect())
+                    self.setBlocks[-1].x = SCREENWIDTH + j*BLOCK_SIZE
+                    self.setBlocks[-1].y = i*BLOCK_SIZE
+
+    def update(self):
+        self.setBlocks = [block.move(self.obstacle_vel, 0) for block in self.setBlocks]
+
+    def blit_all(self, screen):
+        for block in self.setBlocks:
+            screen.blit(self.blockImg, block)
+
+
 def main():
     pygame.init()
 
@@ -52,7 +77,8 @@ def main():
     ceiling, ceilingRect, floor, floorRect = initLevel()
     playerObj = Player()
 
-    obstacles = [ceilingRect, floorRect]
+    obstacleObj = Obstacles()
+    obstacleObj.add_wall(np.array([[1,0,1],[1,0,1],[1,0,1],[1,0,1],[1,0,1],[1,0,1],[0,0,1],[1,0,1]]))
     up_input = False
     fail = False
     while True:
@@ -67,13 +93,18 @@ def main():
 
         playerObj.update_frame()
         playerObj.update_vel(up_input)
+        obstacleObj.update()
+
         screen.fill(white)
         screen.blit(floor, floorRect)
         screen.blit(ceiling, ceilingRect)
         screen.blit(*playerObj.get_blit())
+        obstacleObj.blit_all(screen)
         pygame.display.flip()
 
-        if playerObj.playerRect.collidelist(obstacles) != -1:
+        if playerObj.playerRect.collidelist(obstacleObj.setBlocks) != -1:
+            fail = True
+        if playerObj.playerRect.collidelist([floorRect,ceilingRect]) != -1:
             fail = True
         if fail:
             break
