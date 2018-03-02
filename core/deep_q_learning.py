@@ -23,9 +23,9 @@ class DQN(QN):
 
     def add_update_target_op(self, q_scope, target_q_scope):
         """
-        Update_target_op will be called periodically 
+        Update_target_op will be called periodically
         to copy Q network to target Q network
-    
+
         Args:
             q_scope: name of the scope of variables for q
             target_q_scope: name of the scope of variables for the target
@@ -61,7 +61,7 @@ class DQN(QN):
                     if , values are between 0 and 255 -> 0 and 1
         """
         state = tf.cast(state, tf.float32)
-        state /= self.config.high
+        #state /= self.config.high
 
         return state
 
@@ -112,7 +112,7 @@ class DQN(QN):
         # for saving networks weights
         self.saver = tf.train.Saver()
 
-       
+
     def add_summary(self):
         """
         Tensorboard stuff
@@ -142,10 +142,10 @@ class DQN(QN):
         tf.summary.scalar("Std Q", self.std_q_placeholder)
 
         tf.summary.scalar("Eval Reward", self.eval_reward_placeholder)
-            
+
         # logging
         self.merged = tf.summary.merge_all()
-        self.file_writer = tf.summary.FileWriter(self.config.output_path, 
+        self.file_writer = tf.summary.FileWriter(self.config.output_path,
                                                 self.sess.graph)
 
 
@@ -172,9 +172,9 @@ class DQN(QN):
         """
         #TODO: Change magic numbers for state reshape shape
         #TODO: Fix repeat hack
-        if len(state) < 4:
-            state = np.repeat(state, 4)
-        action_values = self.sess.run(self.q, feed_dict={self.s: [np.reshape(state, (3,4))]})[0]
+        #if len(state) < 4:
+        #    state = np.repeat(state, 4)
+        action_values = self.sess.run(self.q, feed_dict={self.s: [np.reshape(state, (342,1))]})[0]
         return np.argmax(action_values), action_values
 
 
@@ -196,29 +196,29 @@ class DQN(QN):
 
         fd = {
             # inputs
-            self.s: np.reshape(s_batch, (s_batch.shape[0], 3, 4)),
+            self.s: np.reshape(s_batch, (s_batch.shape[0], 342, 1)),
             self.a: a_batch,
             self.r: r_batch,
-            self.sp: np.reshape(s_batch, (sp_batch.shape[0], 3, 4)),
+            self.sp: np.reshape(s_batch, (sp_batch.shape[0], 342, 1)),
             self.done_mask: done_mask_batch,
-            self.lr: lr, 
+            self.lr: lr,
             # extra info
-            self.avg_reward_placeholder: self.avg_reward, 
-            self.max_reward_placeholder: self.max_reward, 
-            self.std_reward_placeholder: self.std_reward, 
-            self.avg_q_placeholder: self.avg_q, 
-            self.max_q_placeholder: self.max_q, 
-            self.std_q_placeholder: self.std_q, 
-            self.eval_reward_placeholder: self.eval_reward, 
+            self.avg_reward_placeholder: self.avg_reward,
+            self.max_reward_placeholder: self.max_reward,
+            self.std_reward_placeholder: self.std_reward,
+            self.avg_q_placeholder: self.avg_q,
+            self.max_q_placeholder: self.max_q,
+            self.std_q_placeholder: self.std_q,
+            self.eval_reward_placeholder: self.eval_reward,
         }
 
-        loss_eval, grad_norm_eval, summary, _ = self.sess.run([self.loss, self.grad_norm, 
+        loss_eval, grad_norm_eval, summary, _ = self.sess.run([self.loss, self.grad_norm,
                                                  self.merged, self.train_op], feed_dict=fd)
 
 
         # tensorboard stuff
         self.file_writer.add_summary(summary, t)
-        
+
         return loss_eval, grad_norm_eval
 
 
@@ -227,4 +227,3 @@ class DQN(QN):
         Update parametes of Q' with parameters of Q
         """
         self.sess.run(self.update_target_op)
-

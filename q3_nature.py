@@ -21,7 +21,7 @@ class NatureQN(Linear):
         Returns Q values for all actions
 
         Args:
-            state: (tf tensor) 
+            state: (tf tensor)
                 shape = (batch_size, img height, img width, nchannels)
             scope: (string) scope name, that specifies if target network or not
             reuse: (bool) reuse of variables in the scope
@@ -38,14 +38,14 @@ class NatureQN(Linear):
                 https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf
                 https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
 
-              you may find the section "model architecture" of the appendix of the 
+              you may find the section "model architecture" of the appendix of the
               nature paper particulary useful.
 
               store your result in out of shape = (batch_size, num_actions)
 
         HINT: you may find tensorflow.contrib.layers useful (imported)
               make sure to understand the use of the scope param
-              make sure to flatten() the tensor before connecting it to fully connected layers 
+              make sure to flatten() the tensor before connecting it to fully connected layers
 
               you can use any other methods from tensorflow
               you are not allowed to import extra packages (like keras,
@@ -53,13 +53,14 @@ class NatureQN(Linear):
 
         """
         ##############################################################
-        ################ YOUR CODE HERE - 10-15 lines ################ 
+        ################ YOUR CODE HERE - 10-15 lines ################
 
         with tf.variable_scope(scope, reuse=reuse):
-            x1 = layers.conv2d(inputs=state, num_outputs=32, kernel_size=8, stride=4)
+            """x1 = layers.conv2d(inputs=state, num_outputs=32, kernel_size=8, stride=4)
             x2 = layers.conv2d(inputs=x1, num_outputs=64, kernel_size =4, stride=2)
             x3 = layers.conv2d(inputs=x2, num_outputs=64, kernel_size=3, stride=1)
-            x4 = layers.fully_connected(layers.flatten(x3), 512)
+            x4 = layers.fully_connected(layers.flatten(x3), 512)"""
+            x4 = layers.fully_connected(layers.fully_connected(layers.fully_connected(layers.flatten(state), 200), 200),100)
             out = layers.fully_connected(x4, num_actions, activation_fn = None)
 
         ##############################################################
@@ -74,7 +75,7 @@ if __name__ == '__main__':
     env = EnvTest((80, 80, 1))
 
     # exploration strategy
-    exp_schedule = LinearExploration(config.num_actions, config.eps_begin, 
+    exp_schedule = LinearExploration(config.num_actions, config.eps_begin,
             config.eps_end, config.eps_nsteps)
 
     # learning rate schedule

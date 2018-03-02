@@ -154,3 +154,775 @@
 2018-02-28 20:10:23,960:INFO: - Training done.
 2018-02-28 20:11:16,514:INFO: - Training done.
 2018-02-28 20:11:17,146:INFO: Evaluating...
+2018-02-28 21:01:29,064:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-02-28 21:01:29,179:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-02-28 21:01:29,180:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-02-28 21:01:29,181:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-02-28 21:01:29,182:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-02-28 21:01:29,183:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-02-28 21:01:29,185:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-02-28 21:01:29,190:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-02-28 21:01:29,191:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-02-28 21:02:02,912:INFO: - Training done.
+2018-02-28 21:02:03,024:INFO: Evaluating...
+2018-03-01 12:46:21,746:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 12:46:21,858:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 12:46:21,859:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 12:46:21,860:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 12:46:21,862:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 12:46:21,878:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 12:46:21,879:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 12:46:21,880:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 12:46:21,882:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 12:46:47,810:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 12:46:47,925:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 12:46:47,927:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 12:46:47,928:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 12:46:47,929:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 12:46:47,931:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 12:46:47,936:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 12:46:47,937:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 12:46:47,938:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 12:47:38,557:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 12:47:38,752:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 12:47:38,755:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 12:47:38,757:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 12:47:38,760:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 12:47:38,762:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 12:47:38,764:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 12:47:38,770:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 12:47:38,771:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 12:48:12,673:INFO: - Training done.
+2018-03-01 12:48:12,873:INFO: Evaluating...
+2018-03-01 12:52:25,558:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 12:52:25,760:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 12:52:25,761:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 12:52:25,763:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 12:52:25,767:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 12:52:25,768:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 12:52:25,770:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 12:52:25,771:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 12:52:25,772:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 12:52:59,660:INFO: - Training done.
+2018-03-01 12:52:59,886:INFO: Evaluating...
+2018-03-01 12:53:30,127:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 12:53:30,353:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 12:53:30,355:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 12:53:30,357:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 12:53:30,359:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 12:53:30,361:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 12:53:30,367:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 12:53:30,368:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 12:53:30,370:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 12:55:24,901:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 12:55:25,220:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 12:55:25,222:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 12:55:25,226:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 12:55:25,244:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 12:55:25,246:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 12:55:25,249:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 12:55:25,259:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 12:55:25,262:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:04:21,467:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:04:21,707:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:04:21,709:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:04:21,711:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:04:21,713:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:04:21,714:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:04:21,716:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:04:21,717:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:04:21,718:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:05:36,032:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:05:36,240:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:05:36,243:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:05:36,247:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:05:36,249:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:05:36,251:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:05:36,252:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:05:36,255:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:05:36,257:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:06:49,520:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:06:49,744:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:06:49,745:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:06:49,747:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:06:49,750:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:06:49,752:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:06:49,754:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:06:49,756:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:06:49,758:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:11:41,013:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:11:41,230:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:11:41,232:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:11:41,235:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:11:41,237:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:11:41,239:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:11:41,240:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:11:41,255:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:11:41,258:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:12:42,935:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:12:43,176:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:12:43,177:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:12:43,180:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:12:43,181:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:12:43,183:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:12:43,184:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:12:43,185:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:12:43,187:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:13:17,111:INFO: - Training done.
+2018-03-01 13:13:17,287:INFO: Evaluating...
+2018-03-01 13:14:04,023:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:14:04,227:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:14:04,230:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:14:04,232:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:14:04,233:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:14:04,234:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:14:04,235:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:14:04,236:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:14:04,238:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:14:39,486:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:14:39,694:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:14:39,697:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:14:39,699:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:14:39,701:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:14:39,702:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:14:39,704:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:14:39,709:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:14:39,711:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:15:36,081:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:15:36,302:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:15:36,304:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:15:36,308:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:15:36,310:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:15:36,312:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:15:36,314:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:15:36,322:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:15:36,324:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:16:49,029:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:16:49,228:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:16:49,232:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:16:49,234:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:16:49,235:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:16:49,237:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:16:49,238:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:16:49,240:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:16:49,242:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:22:36,906:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:22:37,137:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:22:37,138:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:22:37,141:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:22:37,142:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:22:37,143:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:22:37,149:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:22:37,150:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:22:37,152:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:24:13,068:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:24:13,268:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:24:13,270:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:24:13,271:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:24:13,273:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:24:13,275:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:24:13,277:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:24:13,278:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:24:13,281:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 13:33:30,030:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 13:33:30,238:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 13:33:30,240:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 13:33:30,242:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 13:33:30,243:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 13:33:30,245:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 13:33:30,246:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 13:33:30,247:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 13:33:30,254:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 14:31:08,939:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 14:31:09,055:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 14:31:09,056:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 14:31:09,057:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 14:31:09,058:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 14:31:09,062:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 14:31:09,063:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 14:31:09,064:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 14:31:09,066:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 14:35:56,581:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 14:35:56,692:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 14:35:56,693:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 14:35:56,694:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 14:35:56,695:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 14:35:56,699:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 14:35:56,701:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 14:35:56,702:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 14:35:56,703:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 14:36:24,158:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 14:36:24,273:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 14:36:24,274:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 14:36:24,275:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 14:36:24,277:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 14:36:24,280:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 14:36:24,281:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 14:36:24,282:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 14:36:24,284:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 14:36:55,656:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 14:36:55,768:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 14:36:55,770:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 14:36:55,771:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 14:36:55,772:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 14:36:55,776:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 14:36:55,777:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 14:36:55,778:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 14:36:55,778:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 14:39:50,019:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 14:39:50,155:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 14:39:50,157:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 14:39:50,158:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 14:39:50,159:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 14:39:50,165:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 14:39:50,166:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 14:39:50,168:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 14:39:50,169:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 14:40:20,094:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 14:40:20,219:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 14:40:20,220:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 14:40:20,222:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 14:40:20,225:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 14:40:20,226:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 14:40:20,227:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 14:40:20,228:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 14:40:20,230:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 14:42:25,737:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 14:42:25,856:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 14:42:25,857:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 14:42:25,860:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 14:42:25,863:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 14:42:25,864:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 14:42:25,865:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 14:42:25,866:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 14:42:25,868:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 14:49:15,929:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 14:49:16,074:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 14:49:16,075:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 14:49:16,076:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 14:49:16,078:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 14:49:16,083:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 14:49:16,084:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 14:49:16,085:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 14:49:16,086:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 14:50:06,074:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 14:50:06,200:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 14:50:06,202:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 14:50:06,204:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 14:50:06,207:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 14:50:06,208:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 14:50:06,209:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 14:50:06,210:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 14:50:06,211:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:09:21,995:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:09:22,117:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:09:22,118:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:09:22,119:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:09:22,120:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:09:22,121:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:09:22,122:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:09:22,123:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:09:22,124:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:10:40,359:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:10:40,482:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:10:40,483:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:10:40,484:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:10:40,486:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:10:40,487:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:10:40,488:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:10:40,490:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:10:40,491:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:13:43,892:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:13:44,018:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:13:44,019:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:13:44,020:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:13:44,021:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:13:44,022:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:13:44,023:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:13:44,024:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:13:44,025:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:14:56,205:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:14:56,327:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:14:56,328:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:14:56,330:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:14:56,331:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:14:56,333:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:14:56,334:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:14:56,336:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:14:56,338:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:19:49,388:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:19:49,527:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:19:49,531:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:19:49,532:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:19:49,533:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:19:49,534:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:19:49,535:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:19:49,536:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:19:49,537:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:21:53,797:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:21:53,923:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:21:53,925:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:21:53,929:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:21:53,930:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:21:53,931:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:21:53,932:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:21:53,933:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:21:53,934:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:24:44,940:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:24:45,054:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:24:45,055:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:24:45,056:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:24:45,059:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:24:45,060:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:24:45,061:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:24:45,062:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:24:45,064:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:26:07,039:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:26:07,165:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:26:07,166:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:26:07,168:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:26:07,173:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:26:07,175:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:26:07,176:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:26:07,177:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:26:07,178:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:26:50,747:INFO: - Training done.
+2018-03-01 15:26:50,867:INFO: Evaluating...
+2018-03-01 15:27:54,353:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:27:54,473:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:27:54,475:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:27:54,477:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:27:54,480:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:27:54,482:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:27:54,483:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:27:54,484:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:27:54,485:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:33:00,552:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:33:00,655:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:33:00,657:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:33:00,658:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:33:00,660:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:33:00,661:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:33:00,663:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:33:00,664:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:33:00,667:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:33:39,242:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:33:39,343:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:33:39,344:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:33:39,346:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:33:39,347:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:33:39,348:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:33:39,350:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:33:39,356:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:33:39,357:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:34:12,896:INFO: - Training done.
+2018-03-01 15:34:12,996:INFO: Evaluating...
+2018-03-01 15:35:24,153:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:35:24,257:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:35:24,258:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:35:24,259:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:35:24,261:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:35:24,262:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:35:24,263:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:35:24,264:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:35:24,268:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:35:57,868:INFO: - Training done.
+2018-03-01 15:35:57,951:INFO: Evaluating...
+2018-03-01 15:45:54,188:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:45:54,290:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:45:54,292:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:45:54,294:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:45:54,296:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:45:54,297:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:45:54,298:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:45:54,299:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:45:54,301:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:47:26,463:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:47:26,567:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:47:26,568:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:47:26,569:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:47:26,573:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:47:26,574:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:47:26,576:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:47:26,577:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:47:26,578:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:48:00,156:INFO: - Training done.
+2018-03-01 15:48:00,247:INFO: Evaluating...
+2018-03-01 15:48:29,663:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:48:29,767:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:48:29,768:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:48:29,769:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:48:29,770:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:48:29,771:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:48:29,776:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:48:29,777:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:48:29,779:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:49:57,179:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:49:57,283:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:49:57,284:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:49:57,285:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:49:57,288:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:49:57,292:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:49:57,293:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:49:57,294:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:49:57,295:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 15:50:30,923:INFO: - Training done.
+2018-03-01 15:50:31,014:INFO: Evaluating...
+2018-03-01 15:51:42,573:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 15:51:42,672:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 15:51:42,673:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 15:51:42,675:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 15:51:42,676:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 15:51:42,678:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 15:51:42,679:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 15:51:42,681:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 15:51:42,682:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:01:22,029:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:01:22,148:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:01:22,149:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:01:22,150:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:01:22,151:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:01:22,152:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:01:22,153:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:01:22,154:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:01:22,156:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:08:33,632:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:08:33,738:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:08:33,739:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:08:33,739:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:08:33,740:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:08:33,741:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:08:33,742:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:08:33,743:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:08:33,744:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:09:34,013:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:09:34,126:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:09:34,127:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:09:34,128:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:09:34,130:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:09:34,131:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:09:34,132:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:09:34,133:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:09:34,134:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:10:21,093:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:10:21,195:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:10:21,196:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:10:21,197:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:10:21,198:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:10:21,199:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:10:21,200:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:10:21,202:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:10:21,203:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:13:06,235:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:13:06,362:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:13:06,365:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:13:06,368:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:13:06,369:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:13:06,370:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:13:06,372:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:13:06,373:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:13:06,374:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:17:11,157:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:17:11,259:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:17:11,260:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:17:11,262:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:17:11,263:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:17:11,265:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:17:11,266:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:17:11,267:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:17:11,268:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:17:37,136:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:17:37,238:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:17:37,239:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:17:37,240:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:17:37,242:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:17:37,243:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:17:37,244:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:17:37,245:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:17:37,247:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:18:46,930:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:18:47,032:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:18:47,034:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:18:47,036:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:18:47,037:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:18:47,038:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:18:47,039:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:18:47,040:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:18:47,041:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:20:31,471:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:20:31,579:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:20:31,580:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:20:31,581:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:20:31,582:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:20:31,583:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:20:31,585:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:20:31,586:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:20:31,587:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:25:12,153:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:25:12,309:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:25:12,310:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:25:12,311:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:25:12,311:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:25:12,312:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:25:12,313:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:25:12,314:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:25:12,315:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:26:06,885:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:26:06,979:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:26:06,980:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:26:06,981:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:26:06,983:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:26:06,983:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:26:06,984:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:26:06,985:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:26:06,986:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:34:50,119:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:34:50,221:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:34:50,223:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:34:50,224:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:34:50,226:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:34:50,229:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:34:50,230:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:34:50,231:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:34:50,233:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:41:50,054:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:41:50,152:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:41:50,154:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:41:50,155:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:41:50,156:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:41:50,157:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:41:50,158:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:41:50,160:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:41:50,166:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 16:50:22,361:INFO: - Training done.
+2018-03-01 16:50:22,435:INFO: Evaluating...
+2018-03-01 16:56:00,090:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 16:56:00,186:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 16:56:00,187:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 16:56:00,188:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 16:56:00,190:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 16:56:00,191:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 16:56:00,193:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 16:56:00,200:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 16:56:00,201:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 18:10:44,861:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 18:10:44,961:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 18:10:44,963:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 18:10:44,964:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 18:10:44,966:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 18:10:44,967:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 18:10:44,968:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 18:10:44,969:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 18:10:44,970:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 18:25:50,298:INFO: - Training done.
+2018-03-01 18:25:50,422:INFO: Evaluating...
+2018-03-01 18:35:17,662:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 18:35:17,805:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 18:35:17,807:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 18:35:17,810:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 18:35:17,813:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 18:35:17,817:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 18:35:17,824:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 18:35:17,825:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 18:35:17,827:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 18:37:11,148:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 18:37:11,324:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 18:37:11,327:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 18:37:11,330:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 18:37:11,333:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 18:37:11,336:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 18:37:11,344:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 18:37:11,346:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 18:37:11,347:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 18:43:53,949:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 18:43:54,152:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 18:43:54,154:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 18:43:54,158:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 18:43:54,160:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 18:43:54,163:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 18:43:54,170:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 18:43:54,172:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 18:43:54,174:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 18:44:44,178:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 18:44:44,368:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 18:44:44,370:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 18:44:44,373:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 18:44:44,376:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 18:44:44,380:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 18:44:44,382:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 18:44:44,383:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 18:44:44,385:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 18:58:07,173:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 18:58:07,396:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 18:58:07,397:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 18:58:07,399:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 18:58:07,401:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 18:58:07,403:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 18:58:07,405:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 18:58:07,408:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 18:58:07,414:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 18:59:58,539:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 18:59:58,721:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 18:59:58,723:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 18:59:58,725:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 18:59:58,727:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 18:59:58,729:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 18:59:58,732:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 18:59:58,739:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 18:59:58,741:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 19:01:10,765:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 19:01:10,919:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 19:01:10,923:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 19:01:10,925:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 19:01:10,927:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 19:01:10,929:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 19:01:10,931:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 19:01:10,942:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 19:01:10,944:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 19:01:58,182:WARNING: From /mnt/c/Users/MA/Desktop/Work/GhostInTheShellGameDesign/.env/local/lib/python2.7/site-packages/tensorflow/python/ops/clip_ops.py:110: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-03-01 19:01:58,373:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2018-03-01 19:01:58,376:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-03-01 19:01:58,383:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-03-01 19:01:58,385:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-03-01 19:01:58,387:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2018-03-01 19:01:58,389:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2018-03-01 19:01:58,391:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2018-03-01 19:01:58,392:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-03-01 19:17:20,118:INFO: - Training done.
+2018-03-01 19:17:20,224:INFO: Evaluating...

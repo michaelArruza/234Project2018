@@ -1,16 +1,14 @@
 import os
-import gym
 import numpy as np
 import logging
 import time
 import sys
-from gym import wrappers
 from collections import deque
 
 from utils.general import get_logger, Progbar, export_plot
 from utils.replay_buffer import ReplayBuffer
 from utils.preprocess import greyscale
-from utils.wrappers import PreproWrapper, MaxAndSkipEnv
+#from utils.wrappers import PreproWrapper, MaxAndSkipEnv
 
 
 class QN(object):
@@ -28,7 +26,7 @@ class QN(object):
         # directory for training outputs
         if not os.path.exists(config.output_path):
             os.makedirs(config.output_path)
-            
+
         # store hyper params
         self.config = config
         self.logger = logger
@@ -76,7 +74,7 @@ class QN(object):
     def get_best_action(self, state):
         """
         Returns best action according to the network
-    
+
         Args:
             state: observation from gym
         Returns:
@@ -116,7 +114,7 @@ class QN(object):
         self.avg_q = 0
         self.max_q = 0
         self.std_q = 0
-        
+
         self.eval_reward = -21.
 
 
@@ -162,10 +160,10 @@ class QN(object):
         t = last_eval = last_record = 0 # time control of nb of steps
      #   scores_eval = [] # list of scores computed at iteration time
      #   scores_eval += [self.evaluate()]
-        
+
         prog = Progbar(target=self.config.nsteps_train)
 
-        action_file = open("actions.txt", "w")
+        #action_file = open("actions.txt", "w")
 
         # interact with environment
         while t < self.config.nsteps_train:
@@ -185,8 +183,8 @@ class QN(object):
                 # chose action according to current Q and exploration
                 best_action, q_values = self.get_best_action(state)
                 action                = exp_schedule.get_action(best_action)
-                print(action)
-                action_file.write(str(action)+'\n')
+                #print(action)
+                #action_file.write(str(action)+'\n')
 
                 # store q values
                 max_q_values.append(max(q_values))
@@ -211,13 +209,13 @@ class QN(object):
                     exp_schedule.update(t)
                     lr_schedule.update(t)
                     if len(rewards) > 0:
-                        prog.update(t + 1, exact=[("Loss", loss_eval), ("Avg R", self.avg_reward), 
-                                        ("Max R", np.max(rewards)), ("eps", exp_schedule.epsilon), 
-                                        ("Grads", grad_eval), ("Max Q", self.max_q), 
+                        prog.update(t + 1, exact=[("Loss", loss_eval), ("Avg R", self.avg_reward),
+                                        ("Max R", np.max(rewards)), ("eps", exp_schedule.epsilon),
+                                        ("Grads", grad_eval), ("Max Q", self.max_q),
                                         ("lr", lr_schedule.epsilon)])
 
                 elif (t < self.config.learning_start) and (t % self.config.log_freq == 0):
-                    sys.stdout.write("\rPopulating the memory {}/{}...".format(t, 
+                    sys.stdout.write("\rPopulating the memory {}/{}...".format(t,
                                                         self.config.learning_start))
                     sys.stdout.flush()
 
@@ -227,7 +225,7 @@ class QN(object):
                     break
 
             # updates to perform at the end of an episode
-            rewards.append(total_reward)          
+            rewards.append(total_reward)
 
             if (t > self.config.learning_start) and (last_eval > self.config.eval_freq):
                 # evaluate our policy
@@ -244,7 +242,7 @@ class QN(object):
         self.logger.info("- Training done.")
         self.save()
         scores_eval = [self.evaluate()]
-      #  export_plot(scores_eval, "Scores", self.config.plot_output)
+        export_plot(scores_eval, "Scores", self.config.plot_output)
 
 
     def train_step(self, t, replay_buffer, lr):
@@ -265,7 +263,7 @@ class QN(object):
         # occasionaly update target network with q network
         if t % self.config.target_update_freq == 0:
             self.update_target_params()
-            
+
         # occasionaly save the weights
         if (t % self.config.saving_freq == 0):
             self.save()
@@ -319,7 +317,7 @@ class QN(object):
                     break
 
             # updates to perform at the end of an episode
-            rewards.append(total_reward)     
+            rewards.append(total_reward)
 
         avg_reward = np.mean(rewards)
         sigma_reward = np.sqrt(np.var(rewards) / len(rewards))
@@ -329,18 +327,6 @@ class QN(object):
           #  self.logger.info(msg)
 
         return avg_reward
-
-
-    def record(self):
-        """
-        Re create an env and record a video for one episode
-        """
-        env = gym.make(self.config.env_name)
-        env = gym.wrappers.Monitor(env, self.config.record_path, video_callable=lambda x: True, resume=True)
-        env = MaxAndSkipEnv(env, skip=self.config.skip_frame)
-        env = PreproWrapper(env, prepro=greyscale, shape=(80, 80, 1), 
-                        overwrite_render=self.config.overwrite_render)
-        self.evaluate(env, 1)
 
 
     def run(self, exp_schedule, lr_schedule):
@@ -364,4 +350,3 @@ class QN(object):
         # record one game at the end
         if self.config.record:
             self.record()
-        

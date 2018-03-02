@@ -138,7 +138,7 @@ class ReplayBuffer(object):
             for idx in range(start_idx, end_idx):
                 frames.append(self.obs[idx % self.size])
             #TODO: Fix magic shape numbers
-            result = np.reshape(np.concatenate(frames, 0), (4,3))
+            result = np.reshape(np.concatenate(frames, 0), (1,342))
             return result
         else:
             # this optimization has potential to saves about 30% compute time \o/
@@ -193,4 +193,3 @@ class ReplayBuffer(object):
         self.action[idx] = action
         self.reward[idx] = reward
         self.done[idx]   = done
-
