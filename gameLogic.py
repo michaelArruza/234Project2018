@@ -5,11 +5,11 @@ import sys
 SCREENWIDTH = 500
 SCREENHEIGHT = 300
 FPS = 30
-G = 1
-MAXV = 10.0
-MINV = -10.0
+G = 0.5
+MAXV = 5.0
+MINV = -5.0
 BLOCK_SIZE = 25
-UNSEEN = 10
+UNSEEN = 5
 
 def initLevel():
     floor = pygame.transform.scale(pygame.image.load("Assets/base.png"), (500,100))
@@ -39,7 +39,7 @@ class Player():
 
     def update_vel(self, up_input):
         if up_input:
-            self.vel = max(self.vel - G, MINV)
+            self.vel = max(min(self.vel - G,-1), MINV)
         else:
             self.vel = min(self.vel + G, MAXV)
 
